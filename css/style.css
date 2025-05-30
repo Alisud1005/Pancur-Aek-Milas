@@ -227,7 +227,11 @@ body {
 
 .menu-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(47, 241, 47, 0.2);
+  box-shadow: 0 0 15px var(--primary);
+}
+
+.menu-card:hover img {
+  border: 2px solid var(--primary);
 }
 
 .menu-card img {
