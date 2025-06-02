@@ -130,10 +130,30 @@ body {
 .hero .content p {
   font-size: 1.4rem;
   margin-top: 1rem;
-  line-height: 1.2;
-  font-weight: 100;
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  mix-blend-mode: difference;
+  line-height: 1.6;
+  font-weight: 400;
+  padding: 1.5rem; /* Tambahkan padding */
+  background-color: rgba(0, 0, 0, 0.6); /* Hitam dengan opacity 60% */
+  border-radius: 8px; /* Sudut sedikit melengkung */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  mix-blend-mode: normal; /* Ubah dari difference ke normal */
+  color: #fff;
+  backdrop-filter: blur(2px); /* Efek blur halus untuk background */
+}
+
+/* Tambahkan style untuk teks kontak */
+.contact p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-weight: 400;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  margin: 0 auto 2rem;
+  max-width: 80%;
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(2px);
 }
 
 .hero .content .cta {
