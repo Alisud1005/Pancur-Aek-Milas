@@ -211,10 +211,13 @@ body {
 }
 
 .about .row .content p {
-  margin-bottom: 0.8rem;
   font-size: 1.4rem;
-  font-weight: 100;
-  line-height: 1.6;
+  margin-top: 1rem;
+  line-height: 1.6; /* Diubah dari 1.2 menjadi 1.6 untuk spasi lebih lega */
+  font-weight: 400; /* Diubah dari 100 menjadi 400 untuk lebih tebal */
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  mix-blend-mode: difference;
+  color: rgba(255, 255, 255, 0.9); /* Tambahkan warna dengan opacity 90% */
 }
 
 /* Updated Menu Section */
@@ -223,11 +226,13 @@ body {
 }
 
 .menu p {
-  text-align: center;
-  max-width: 30rem;
-  margin: auto;
-  font-weight: 100;
-  line-height: 1.6;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  line-height: 1.6; /* Diubah dari 1.2 menjadi 1.6 untuk spasi lebih lega */
+  font-weight: 400; /* Diubah dari 100 menjadi 400 untuk lebih tebal */
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  mix-blend-mode: difference;
+  color: rgba(255, 255, 255, 0.9); /* Tambahkan warna dengan opacity 90% */
 }
 
 .menu .row {
@@ -426,7 +431,13 @@ footer .credit a {
   }
 
   .about .row .content p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    line-height: 1.6; /* Diubah dari 1.2 menjadi 1.6 untuk spasi lebih lega */
+    font-weight: 400; /* Diubah dari 100 menjadi 400 untuk lebih tebal */
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+    mix-blend-mode: difference;
+    color: rgba(255, 255, 255, 0.9); /* Tambahkan warna dengan opacity 90% */
   }
 
   .menu .row {
@@ -455,4 +466,19 @@ footer .credit a {
   .menu .row {
     grid-template-columns: 1fr;
   }
+}
+
+/* Tambahkan style untuk teks kontak */
+.contact p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-weight: 400;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  margin: 0 auto 2rem;
+  max-width: 80%;
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(2px);
 }
