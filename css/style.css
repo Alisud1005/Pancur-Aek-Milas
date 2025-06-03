@@ -141,21 +141,6 @@ body {
   backdrop-filter: blur(2px); /* Efek blur halus untuk background */
 }
 
-/* Tambahkan style untuk teks kontak */
-.contact p {
-  font-size: 1.3rem;
-  line-height: 1.6;
-  font-weight: 400;
-  padding: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 8px;
-  margin: 0 auto 2rem;
-  max-width: 80%;
-  text-align: center;
-  color: #fff;
-  backdrop-filter: blur(2px);
-}
-
 .hero .content .cta {
   margin-top: 1rem;
   display: inline-block;
